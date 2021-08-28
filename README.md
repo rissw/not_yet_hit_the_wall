@@ -40,3 +40,22 @@ Run it and amazed...
 
 It's ~1s, soooo faaast... i'm glad that it means more improvement can be done to achieve better performance (optimize my code or rewrite it using different methods)
 so far there are somethings i would love to try... i'm sure i'm not yet hit the wall
+
+
+
+
+
+
+
+
+
+# UPDATE 2021-08-29 02:25 AM (GMT +7, Jakarta-Indonesia Time)
+
+After one day uploading, and analize the possibilities to conquer sirkon's code performance which is ~1s running in my PC,( check his code at https://github.com/sirkon/mineislarger , btw i haven't analize his code, to keep me looking for fresh solution),
+finally i might be hitting the wall...
+with another method, my code finally run less then 800ms.....yaaaaayyyyyyyyyyyyyy!!!!
+
+![alt text](./pics/read-block.png)
+
+
+Maybe i'll write the explanation later, but it actually a very simple logic.
