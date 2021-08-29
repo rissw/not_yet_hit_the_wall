@@ -59,3 +59,13 @@ with another method, my code finally run less then 800ms.....yaaaaayyyyyyyyyyyyy
 
 
 Maybe i'll write the explanation later, but it actually a very simple logic.
+
+# UPDATE 2021-08-29 19:25 AM (GMT +7, Jakarta-Indonesia Time)
+
+After hints from Felix Geisendörfer (@felixge)
+
+![alt text](./pics/tweet.png)
+
+and changes some of his suggestion, we got ~700ms performance
+
+![alt text](./pics/read-block-r1.png)
