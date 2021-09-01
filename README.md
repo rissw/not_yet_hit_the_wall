@@ -2,7 +2,7 @@
 Processing large file - go
 
 
-After reading Marcel Lanz's tweet (seems somebody liked it, and it wa shown in my twitter's home), 
+After reading Marcel Lanz's tweet (seems somebody liked it, and it was shown in my twitter's home), 
 and read his blog (https://marcellanz.com/post/file-read-challenge/  -- read it...it's fun and helpful!),
 i tried to get his rev9 work and run it in my new build mini ITX PC (Ryzen 5700G with 32GB RAM and NVME)
 
@@ -60,7 +60,7 @@ with another method, my code finally run less then 800ms.....yaaaaayyyyyyyyyyyyy
 
 Maybe i'll write the explanation later, but it actually a very simple logic.
 
-# UPDATE 2021-08-29 19:25 AM (GMT +7, Jakarta-Indonesia Time)
+# UPDATE 2021-08-29 19:25  (GMT +7, Jakarta-Indonesia Time)
 
 After hints from Felix Geisendörfer (@felixge)
 
@@ -69,3 +69,15 @@ After hints from Felix Geisendörfer (@felixge)
 and changes some of his suggestion, we got ~700ms performance
 
 ![alt text](./pics/read-block-r1.png)
+
+# UPDATE 2021-09-01 12:50  (GMT +7, Jakarta-Indonesia Time)
+
+There are update ver 5, which not worth mentioning, the performance change is not significant, or even slower...
+So let's get to ver6, where i removed the sync.Pool, trace/profile it, and adjust some parameters to have optimal performance.
+and now we get under 500ms performance
+
+![alt text](./pics/ver6.png)
+
+and (*forget to mention the filesize processed), so here it is..
+
+![alt text](./pics/size.png)
